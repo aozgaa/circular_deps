@@ -76,4 +76,8 @@ pixi run -- cmake --build build/kinds-base
 You can also launch `pixi shell` to obtain an interactive environment before invoking CMake
 manually.
 
+# Testing
+
 Run `./test_combinations.sh --results <csv>` to sweep library-kind pairings across every scenario and record configure/build/run success/failure.
+
+The latest full sweep is available in `sweep.csv`, with columns for configure/build/run status per scenario and library-kind pair.
